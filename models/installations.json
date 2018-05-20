@@ -1,0 +1,121 @@
+{
+    "installations": [
+        {
+            "id": 1,
+            "name": "Solar Array",
+            "description": "A photovoltaic system is a power system designed to supply usable solar power by means of photovoltaics. It consists of an arrangement of several components, including solar panels to absorb and convert sunlight into electricity.",
+            "delta": 4,
+            "unit": 1,
+            "image": "/images/1.png",
+            "cost": 1000,
+            "category": "Energy",
+            "impact": [
+                {
+                    "unit": 2,
+                    "delta": 1
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Thermal-Neutron Reactor",
+            "description": "A thermal-neutron reactor is a nuclear reactor that uses slow or thermal neutrons. Thermal does not mean hot in an absolute sense, but means in thermal equilibrium with the medium it is interacting with, the reactor's fuel, moderator and structure, which is much lower energy than the fast neutrons initially produced by fission.",
+            "delta": 20,
+            "unit": 1,
+            "image": "/images/1.png",
+            "cost": 10000,
+            "category": "Energy",
+            "impact": [
+                {
+                    "unit": 2,
+                    "delta": 5
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Habitat Unit",
+            "description": "The Moon Habitat Unit is a 3-deck vehicle providing a comprehensive living and working environment for a Moon crew. In addition to individual sleeping quarters which provide a degree of privacy for each of the crew and a place for personal effects, the Moon Habitat Unit includes a communal living area, a small galley, exercise area, and hygiene facilities with closed-cycle water purification. The lower deck of the Moon Habitat Unit provides the primary working space for the crew: small laboratory areas for carrying out geology and life science research; storage space for samples, airlocks for reaching the surface of the Moon, and a suiting-up area where crew members prepare for surface operations.",
+            "delta": 20,
+            "unit": 16,
+            "max": 500,
+            "image": "/images/1.png",
+            "cost": 10000,
+            "category": "Housing",
+            "impact": [
+                {
+                    "unit": 2,
+                    "delta": 5
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Habitat Unit Complex",
+            "description": "",
+            "delta": 500,
+            "unit": 16,
+            "image": "/images/1.png",
+            "cost": 10000,
+            "max": 5000,
+            "category": "Housing",
+            "impact": [
+                {
+                    "unit": 2,
+                    "delta": 5
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Nutrient-Film Hydroponics Unit",
+            "desciption": "A continuous-flow solution culture, the nutrient solution constantly flows past the roots. Much easier to automate than the static solution due to a large storage tank that has potential to serve thousands of plants. Uses the nutrient film technique or NFT, whereby a very shallow stream of water containing all the dissolved nutrients required for plant growth is recirculated past the bare roots of plants in a watertight thick root mat, which develops in the bottom of the channel and has an upper surface that, although moist, is in the air.",
+            "delta": 500,
+            "unit": 16,
+            "image": "/images/1.png",
+            "cost": 10000,
+            "max": 5000,
+            "category": "Food",
+            "impact": [
+                {
+                    "unit": 2,
+                    "delta": 5
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Robotic Mine",
+            "desciption": "Robotic components manage all critical vehicle functions including steering, transmission, acceleration, braking, and implement control (i.e. blade control, dump bed control, excavator bucket, drill, and boom, etc.) without the need for operator intervention. Fully autonomous mining systems experience the most productivity gains as software controls one or more mining vehicles allowing operators to take on the role of mining facilitators, troubleshooting errors and monitoring efficiency.",
+            "delta": 500,
+            "unit": 16,
+            "image": "/images/1.png",
+            "cost": 10000,
+            "max": 5000,
+            "category": "Resources",
+            "impact": [
+                {
+                    "unit": 2,
+                    "delta": 5
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Satellite Communications",
+            "desciption": "A dish-shaped type of parabolic antenna designed to receive or transmit information by radio waves to or from a communication satellite. The term most commonly means a dish used by settlers to receive direct-broadcast satellite video and internet services from a direct broadcast satellite in geostationary orbit.",
+            "delta": 500,
+            "unit": 16,
+            "image": "/images/1.png",
+            "cost": 10000,
+            "max": 5000,
+            "category": "Communications",
+            "impact": [
+                {
+                    "unit": 2,
+                    "delta": 5
+                }
+            ]
+        }
+    ]
+}

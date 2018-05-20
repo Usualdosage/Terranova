@@ -1,0 +1,23 @@
+{
+    "nations": [
+        {
+            "name": "Eurpoean Federation",
+            "flag": "images/flag.png",
+            "type": "democracy",
+            "attributes:": [
+                {
+                    "name": "population",
+                    "boost": 10
+                },
+                {
+                    "name": "research",
+                    "boost": 5
+                },
+                {
+                    "name": "finance",
+                    "boost": -10
+                }
+            ]
+        }
+    ]
+}

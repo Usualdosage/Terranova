@@ -1,0 +1,106 @@
+{
+    "units": [
+        {
+            "id": 1,
+            "type": "energy",
+            "measure": "kWH",
+            "description": "Energy is the quantitative property that must be transferred to an object in order to perform work on, or to heat, the object. Energy is a conserved quantity; the law of conservation of energy states that energy can be converted in form, but not created or destroyed."
+        },
+        {
+            "id": 2,
+            "type": "heat",
+            "measure": "degrees C",
+            "description": "In thermodynamics, heat is a type of energy transfer in which energy flows from a warmer substance or object to a colder one. It can be defined as the total amount of transferred energy excluding any macroscopic work that was done and any transfer of part of the object itself."
+        },
+        {
+            "id": 3,
+            "type": "pressure",
+            "measure": "millibars",
+            "description": "Atmospheric pressure, sometimes also called barometric pressure, is the pressure within the atmosphere of the Moon. In most circumstances atmospheric pressure is closely approximated by the hydrostatic pressure caused by the weight of air above the measurement point. As elevation increases, there is less overlying atmospheric mass, so that atmospheric pressure decreases with increasing elevation."
+        },
+        {
+            "id": 4,
+            "type": "water",
+            "measure": "cubic kilometers",
+            "description": "Water is a transparent, tasteless, odorless, and nearly colorless chemical substance that is the main constituent of Earth's streams, lakes, and oceans, and the fluids of most living organisms. Its chemical formula is H2O, meaning that each of its molecules contains one oxygen and two hydrogen atoms that are connected by covalent bonds."
+        },
+        {
+            "id": 5,
+            "type": "O2",
+            "measure": "parts per million",
+            "description": "The common allotrope of elemental oxygen needed for life is called dioxygen, or O2. O2 has a bond length of 121 pm and a bond energy of 498 kJ/mol, which is smaller than the energy of other double bonds or pairs of single bonds in the biosphere and responsible for the exothermic reaction of O2 with any organic molecule."
+        },
+        {
+            "id": 6,
+            "type": "flora",
+            "measure": "population",
+            "description": "Flora is the plant life occurring in a particular region or time, generally the naturally occurring or indigenous—native plant life. The corresponding term for animal life is fauna."
+        },
+        {
+            "id": 7,
+            "type": "fauna",
+            "measure": "population",
+            "description": "Fauna is all of the animal life of any particular region or time. The corresponding term for plants is flora."
+        },
+        {
+            "id": 8,
+            "type": "CO2",
+            "measure": "parts per million",
+            "description": "Carbon dioxide is a colorless gas with a density about 60% higher than that of dry air. Carbon dioxide consists of a carbon atom covalently double bonded to two oxygen atoms. Natural sources include volcanoes, hot springs and geysers, and it is freed from carbonate rocks by dissolution in water and acids."
+        },
+        {
+            "id": 9,
+            "type": "iron",
+            "measure": "metric tons",
+            "description": "Iron is a chemical element with symbol Fe and atomic number 26. It is a metal in the first transition series. It is by mass the most common element on the Moon, forming much of Moon's outer and inner core. It is the fourth most common element in the Moon's crust. Its abundance in rocky bodies like the Moon is due to its abundant production by fusion in high-mass stars.",
+            "rarity": 2
+        },
+        {
+            "id": 10,
+            "type": "silicon",
+            "measure": "metric tons",
+            "description": "Silicon is a chemical element with symbol Si and atomic number 14. A hard and brittle crystalline solid with a blue-grey metallic lustre, it is a tetravalent metalloid and semiconductor. It is a member of group 14 in the periodic table, along with carbon above it and germanium, tin, and lead below.",
+            "rarity": 1
+        },
+        {
+            "id": 11,
+            "type": "oxygen",
+            "measure": "metric tons",
+            "description": "Oxygen is a chemical element with symbol O and atomic number 8. It is a member of the chalcogen group on the periodic table, a highly reactive nonmetal, and an oxidizing agent that readily forms oxides with most elements as well as with other compounds. By mass, oxygen is the third-most abundant element in the universe.",
+            "rarity": 0
+        },
+        {
+            "id": 12,
+            "type": "calcium",
+            "measure": "metric tons",
+            "description": "Calcium is a chemical element with symbol Ca and atomic number 20. An alkaline earth metal, calcium is a reactive pale yellow metal that forms a dark oxide-nitride layer when exposed to air. Its physical and chemical properties are most similar to its heavier homologues strontium and barium. It is the fifth most abundant element in Earth's crust and the third most abundant metal, after iron and aluminium.",
+            "rarity": 3
+        },
+        {
+            "id": 13,
+            "type": "aluminum",
+            "measure": "metric tons",
+            "description": "aluminum is a chemical element with symbol Al and atomic number 13. It is a silvery-white, soft, nonmagnetic and ductile metal in the boron group. By mass, aluminium makes up about 8% of the Moon's crust; it is the third most abundant element after oxygen and silicon and the second most abundant metal in the crust after calcium.",
+            "rarity": 4
+        },
+        {
+            "id": 14,
+            "type": "magnesium",
+            "measure": "metric tons",
+            "description": "Magnesium is a chemical element with symbol Mg and atomic number 12. It is a shiny gray solid which bears a close physical resemblance to the other five elements in the second column (group 2, or alkaline earth metals) of the periodic table: all group 2 elements have the same electron configuration in the outer electron shell and a similar crystal structure.",
+            "rarity": 5
+        },
+        {
+            "id": 15,
+            "type": "KREEP",
+            "measure": "metric tons",
+            "description": "KREEP, an acronym built from the letters K (the atomic symbol for potassium), REE (rare-earth elements) and P (for phosphorus), is a geochemical component of some lunar impact breccia and basaltic rocks.",
+            "rarity": 6
+        },
+        {
+            "id": 16,
+            "type": "person",
+            "description": "A person is a being that has certain capacities or attributes such as reason, morality, consciousness or self-consciousness, and being a part of a culturally established form of social relations such as kinship, ownership of property, or legal responsibility."
+        }
+    ]
+}

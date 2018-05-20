@@ -1,0 +1,42 @@
+{
+    "username": "user@user.com",
+    "first": "John",
+    "last": "Doe",
+    "dob": "10/01/1970",
+    "id": 100001,
+    "colonies": [
+        {
+            "name": "Test Colony",
+            "loc": { 
+                "n": 29.9792,
+                "e": 31.1342 
+            },
+            "population": 100,
+            "culture": { },
+            "installations": 
+            [
+                1, 7, 13
+            ]
+        }
+    ],
+    "mines": [
+        {
+            "name": "Test Mine",
+            "loc": { 
+                "n": 29.9792,
+                "e": 31.1342 
+            },
+            "unit": 13,
+            "quantity": 100
+        },
+        {
+            "name": "Test Mine 2",
+            "loc": { 
+                "n": 29.9792,
+                "e": 33.1342 
+            },
+            "unit": 11,
+            "quantity": 170
+        }
+    ]
+}
