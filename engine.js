@@ -1,30 +1,29 @@
-// Global variables
-var Engine;
+"use strict";
 
-// Constructor
-Engine = (function() {
+class Engine {
 
-    Engine.prototype.logger = "";
-    Engine.prototype.interval = "";
+    // Constructor
+    constructor(logger) {
 
-    function Engine(logger)
-    {
-        if (logger)
-            this.logger = logger;
+        this._logger = logger;
+        this._interval = null;
+
+        this.log = function(message) 
+        { 
+            this._logger.log(message, this._logger.logLevel);
+        }
+
+        this.tick = function()
+        {
+            this._logger.log("TICK", this._logger.logLevel);
+        }
     }
 
-    Engine.prototype.start = function()
+    start() 
     {
-        logger.log("Engine is starting...")
+        this.log("Terranova engine is starting up...")
+        this._interval = setInterval(this.tick, 3000);
+    }  
+}
 
-        this.interval = setInterval(function() { 
-            logger.log("TICK");
-
-        }, 3000);
-    }
-  
-    return Engine;
-  
-  })();
-
-  module.exports = Engine; 
+module.exports = Engine;

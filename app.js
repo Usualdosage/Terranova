@@ -1,9 +1,10 @@
+"use strict";
+
 // Required libs
 var express = require('express');
 var app = express();
 var path = require('path');
 var Logger = require('./logger.js');
-var Engine = require('./engine.js');
 
 // Global variables
 var logger = new Logger("info");
@@ -20,7 +21,7 @@ try
     app.use('/', express.static(__dirname + '/'));
 
     app.listen(8080, function() { 
-        logger.log("TerraMoon is starting up...", "error");
+        logger.log("Terranova is starting up...", "error");
         logger.log('Listening on port 8080...', "error")
         main(); // Start the main game loop
     });
@@ -33,6 +34,8 @@ catch (e)
 // Main game loop
 function main()
 {
+    var Engine = require('./engine.js');
+
     var engine = new Engine(logger);
 
     // Launch the beast
